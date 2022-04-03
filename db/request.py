@@ -1,0 +1,29 @@
+CREATE_CHATS = '''
+CREATE TABLE IF NOT EXISTS Chats (
+  Id INTEGER,
+  Chat TEXT,
+  Interval INTEGER,
+  LifetimeBegin INTEGER,
+  LifetimeEnd INTEGER
+)
+'''
+
+CREATE_READ = '''
+CREATE TABLE IF NOT EXISTS Read (
+  Id INTEGER,
+  ChatId INTEGER,
+  JokeId INTEGER
+)
+'''
+
+CREATE_JOKES = '''
+CREATE TABLE IF NOT EXISTS Jokes (
+  Id INTEGER,
+  Text TEXT
+)
+'''
+
+GET_AMOUNT_JOKES = '''
+SELECT COUNT(*) from Jokes 
+'''
+
