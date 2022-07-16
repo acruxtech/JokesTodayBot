@@ -1,4 +1,4 @@
-TOKEN = '5161247962:AAGC50rfG6-ppe31_UOMWnUGRS5lbrCVjoQ'
+TOKEN = 'token'
 
 HELP = '''
 /start - начать работу
